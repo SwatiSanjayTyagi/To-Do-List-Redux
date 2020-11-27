@@ -1,0 +1,226 @@
+.App {
+  text-align: center;
+  font: Arial;
+  font-size: medium;
+}
+
+.AppError {
+  text-align: left;
+  font: Arial;
+  font-size: medium;
+  color: red;
+  margin-left: 10px;
+}
+
+.logname {
+  height: 20px;
+  width: 145px;
+  margin: 250px;
+  display: inline-block;
+  border: 1px solid #84aaf6 ;
+  border-radius: 4px;
+  background-color: #84aaf6 ;
+  font-size: medium;
+  color: white;
+  font: Arial;
+  margin-left: 679px;
+  margin-top: 0px; 
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.createSpace {
+  margin: 10px
+}
+
+.LoginContainer{
+  height: 243px;
+  width: 320px;
+  margin: 250px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+  font-size: medium;
+  color: black;
+  font: Arial;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: 0px; 
+  margin-bottom: 40px;
+}
+.Loginhead {
+  background-color: #84aaf6;
+  min-height: 15.1pc;
+  width: 320px;
+  /* margin-left: 0px;
+  margin-top: 0px; 
+  margin-bottom: 40px; */
+  font-size: calc(10px + 2vmin);
+  color: black;
+  text-align: center;
+}
+
+.dispLoginhead{
+  display: grid;   
+  /*grid-template-columns: 300px 1fr;*/
+  grid-template-columns: auto;
+  grid-template-rows:auto;
+  
+}
+
+
+.dispLogindata{
+  display: grid;   
+  /*grid-template-columns: 300px 1fr;*/
+  grid-template-columns: 100px 190px;
+  grid-row-gap: 1px;
+  grid-column-gap: 1px;
+  grid-template-rows:auto ;
+  margin-left: 8px;
+  /* margin-top: 50px; */
+  font-size: medium;
+}
+
+.dispLoginblank{
+  display: grid;   
+  /*grid-template-columns: 300px 1fr;*/
+  grid-template-columns: 290px;
+  grid-row-gap: 1px;
+  grid-column-gap: 1px;
+  grid-template-rows:auto ;
+  margin-left: 8px;
+  /* margin-top: 50px; */
+}
+
+.Container {
+  height: 600px;
+  width: 850px;
+  margin-left: 300px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+  font-size: medium;
+  color: black;
+  font: Arial;
+  
+}
+.head {
+  background-color: #84aaf6;
+  min-height: 1px;
+  width: 830px;
+  margin-left: 10px;
+  margin-top: 0px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+
+}
+
+.disptask{
+  display: grid;   
+  /*grid-template-columns: 300px 1fr;*/
+  grid-template-columns: 190px 200px 200px 200px;
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+  margin: 10px;
+  font-family : inherit;
+  font: Arial;
+  font-size: medium;
+}
+
+.disptaskerror{
+  display: grid;   
+  /*grid-template-columns: 300px 1fr;*/
+  grid-template-columns: 400px 400px;
+  grid-template-rows: auto;
+  grid-column-gap: 1px;
+  /* margin: 10px; */
+  font-family : inherit;
+  font: Arial;
+  font-size: medium;
+  text-align: left;
+}
+
+.Contsearch{
+  height: 40px;
+  width: 725px;
+  border: 2px solid silver;
+  border-radius: 4px;
+  
+}
+.dispSingleSearch{
+  display: grid;   
+  /*grid-template-columns: 300px 1fr;*/
+  grid-template-columns: 180px 100px 280px 100px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  grid-template-rows:auto;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+.dispsearch{
+  display: grid;   
+  /*grid-template-columns: 300px 1fr;*/
+  grid-template-columns: 700px 100px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  grid-template-rows:auto;
+  margin: 10px;
+  font: Arial;
+  font-size: medium;
+}
+
+.dispdate{
+  display: grid;   
+  /*grid-template-columns: 300px 1fr;*/
+  grid-template-columns: 190px 200px 200px 200px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  grid-template-rows:auto auto;
+  margin: 10px;
+  font: Arial;
+  font-size: medium;
+}
+
+.disptextarea{
+  display: grid;   
+  /*grid-template-columns: 300px 1fr;*/
+  grid-template-columns: 200px auto;
+  grid-template-rows:auto;
+  margin: 10px;
+  margin-right: 20px;
+  text-rendering: Arial;
+  font: Arial;
+ }
+.dispbutton{
+  display: grid;   
+  /*grid-template-columns: 300px 1fr;*/
+  /* grid-template-columns: 190px 200px 200px 200px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  grid-template-rows:auto auto; */
+  margin: 10px 350px 10px 350px;
+  text-align: center;
+}
+
+select{
+  font-weight: normal;
+}
+textarea
+{
+  font-family : inherit;
+  
+}
+input[type=date], select 
+{
+  font-family : inherit;
+}
+input[type=button], select
+{
+  font-weight: bolder;
+}
+.truechk{
+  text-decoration: line-through;
+}
